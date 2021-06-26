@@ -20,6 +20,28 @@
             border-style: none;
             border: 1px solid #0000FF;
         }
+        
+        @media (orientation: landscape),
+        (min-width: 800px) {
+            iframe {
+                min-height: 99.9vmin;
+                min-width: 99.9%;
+                margin: 0px;
+                border-style: none;
+                border: 1px solid #0000FF;
+            }
+        }
+        
+        @media (orientation: portrait) {
+            iframe {
+                min-height: 99.9vmax;
+                min-width: 99.9%;
+                margin: 0px;
+                border-style: none;
+                border: 1px solid #0000FF;
+            }
+        }
+        
     </style>
 </head>
 
