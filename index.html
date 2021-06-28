@@ -11,15 +11,16 @@
         body {
             display: flex;
         }
-        html, body, div, iframe { 
+        html, body, div, iframe, .ifrInicial { 
             margin:0;
             padding:0;
             height:100%;
         }
         .ifrInicial {
             display: block;
-            min-height: 49vmax;
+            min-height: 99.99vmax;
             min-width: 99.9%;
+            width: 100%,
             border-style: none;
             border: 1px solid #0000FF;
         }
@@ -28,7 +29,7 @@
         (min-width: 800px) {
             .ifrInicial {
                 display: block;
-                min-height: 99.9vmin;
+                min-height: 99.99vmin;
                 min-width: 99.9%;
                 border-style: none;
                 border: 1px solid #0000FF;
@@ -38,9 +39,8 @@
         @media (orientation: portrait) {
             .ifrInicial {
                 display: block;
-                min-height: 99.9vmax;
-                min-width: 99.9%;
-                margin: 0px;
+                min-height: 99.99vmax;
+                min-width: 99.99%;
                 border-style: none;
                 border: 1px solid #0000FF;
             }
