@@ -10,30 +10,34 @@
     <style>
         body {
             display: flex;
-            margin: 0px;
         }
-        
+        html, body, div, iframe { 
+            margin:0;
+            padding:0;
+            height:100%;
+        }
         .ifrInicial {
+            display: block;
             min-height: 49vmax;
             min-width: 99.9%;
-            margin: 0px;
             border-style: none;
             border: 1px solid #0000FF;
         }
         
         @media (orientation: landscape),
         (min-width: 800px) {
-            iframe {
+            .ifrInicial {
+                display: block;
                 min-height: 99.9vmin;
                 min-width: 99.9%;
-                margin: 0px;
                 border-style: none;
                 border: 1px solid #0000FF;
             }
         }
         
         @media (orientation: portrait) {
-            iframe {
+            .ifrInicial {
+                display: block;
                 min-height: 99.9vmax;
                 min-width: 99.9%;
                 margin: 0px;
