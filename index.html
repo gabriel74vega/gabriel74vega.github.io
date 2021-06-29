@@ -4,10 +4,18 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=0.55,minimum-scale=0.55,maximum-scale=0.55,shrink-to-fit=no" />
+    <!--<meta name="viewport" content="width=device-width,initial-scale=0.55,minimum-scale=0.55,maximum-scale=0.55,shrink-to-fit=no" />-->
 
     <base target="self">
     <style>
+        @media (orientation: landscape){
+            meta{name:"viewport"; 
+                content:"width=device-width,initial-scale=0.75,minimum-scale=0.75,maximum-scale=0.75,shrink-to-fit=no";
+            }
+        @media (orientation: portrait){
+            meta{name:"viewport"; 
+                content:"width=device-width,initial-scale=0.6,minimum-scale=0.6,maximum-scale=0.6,shrink-to-fit=no";
+            }
         body {
             display: flex;
         }
