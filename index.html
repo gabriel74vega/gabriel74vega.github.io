@@ -11,7 +11,7 @@
         body {
             display: flex;
         }
-        html, body, div { 
+        html, body{ 
             margin:0;
             padding:0;
             height:100%;
@@ -22,31 +22,28 @@
             margin:0;
             padding:0;
             min-height: 100vmax;
-            /* min-width: 99.9vw;
-            max-width: 99.9vw; */
-            width: 100vw,
+            min-width: 100%;
+            max-width: 100%;
+            width: 100%;
             border-style: none;
             /* border: 1px solid #0000FF; */
         }
         
         @media (orientation: landscape),
         (min-width: 800px) {
-            .ifrInicial {
-                display: block;
+            html, body, .ifrInicial {
                 min-height: 100vmin;
-                /*min-width: 99.9vmax;
-                max-width: 99.9vmax;*/
-                border-style: none;
+                min-width: 100vmax;
+                max-width: 100vmax;
                 /* border: 1px solid #0000FF; */
             }
         }
         
         @media (orientation: portrait) {
-            .ifrInicial {
-                display: block;
+            html, body,.ifrInicial{
                 min-height: 100vmax;
-                /* min-width: 99.9vmin; */
-                border-style: none;
+                min-width: 100vmin;
+                max-width: 100vmin;
                 /* border: 1px solid #0000FF; */
             }
         }
