@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" width="480px" height="480px">
   <defs>
-		<style>.cls-1{fill: hsla(255, 100%, 100%, 1);stroke: none;}
+		<style>.cls-1{fill: hsla(250, 0%, 98%, 1);stroke: none;}
 			.cls-1,.cls-2,.cls-3,.cls-4{stroke-miterlimit: 10;}
-			.cls-2{fill: hsla(255, 100%, 50%, 1);}.cls-2,.cls-3{stroke: hsla(255, 100%, 100%, 0.7);}
-			.cls-2,.cls-3,.cls-4{stroke-width: 8px;}.cls-3{fill: hsla(250, 100%, 100%, 1);}
-			.cls-4{fill: hsla(255, 100%, 50%, 1);stroke: hsla(255, 100%, 100%, 0.7);}
+			.cls-2{fill: hsla(250, 80%, 40%, 1);}.cls-2,.cls-3{stroke: hsla(250, 0%, 98%, 0.7);}
+			.cls-2,.cls-3,.cls-4{stroke-width: 8px;}.cls-3{fill: hsla(250, 0%, 98%, 1);}
+			.cls-4{fill: hsla(250, 80%, 40%, 1);stroke: hsla(250, 0%, 98%, 0.7);}
 		</style>
   </defs>
   <g id="Capa_2" data-name="Capa 2">
